@@ -30,7 +30,15 @@ header ul li a {
     color: white;
     margin-left: 1rem;
     font-size: 1.5em;
+    cursor: pointer;
 }
+
+ul li :hover {
+    color: rgba(255, 0, 0, 0.775);
+    transition: color 0.5s ease-in-out;
+}
+
+
 
 header img{
     max-width: 100px;
@@ -155,6 +163,8 @@ header img{
 
  .img-manga li:hover {
     transform:  translateY(-10px);
+        box-shadow: rgba(251, 249, 249, 0.12) 0px 2px 4px 0px, rgba(233, 236, 236, 0.32) 0px 2px 16px 0px;
+
  }
 
  
