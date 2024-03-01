@@ -1,5 +1,5 @@
 ## Simple-projectJs
-
+Pas responsive
 ![capture](./capReadme.png)
 
 ## Pour les Développeurs
