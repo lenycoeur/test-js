@@ -1,6 +1,6 @@
-##Simple-projectJs
+## Simple-projectJs
 
-![capture](./)
+![capture](./capReadme.png)
 
 ## Pour les Développeurs
 
