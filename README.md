@@ -1,5 +1,7 @@
 ## Simple-projectJs
-Pas responsive
+
+Développé à fins de renforcer les compétences en développement web front-end en HTML, CSS et JavaScript sans prise en charge de la conception responsive."
+
 ![capture](./capReadme.png)
 
 ## Pour les Développeurs
