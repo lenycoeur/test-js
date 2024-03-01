@@ -5,14 +5,10 @@ function slider(vue) {
 
 function back(back) {
   const bg = document.querySelector(".container");
-  bg.style.background = `linear-gradient(rgba(0, 0, 0, 0.592), rgb(0, 0, 0)), url(${back}) no-repeat center center / cover`;
+  bg.style.background = `linear-gradient(rgba(0, 0, 0, 0.392), rgb(0, 0, 0)), url(${back}) no-repeat center center / cover`;
   bg.style.transition = "background .5s ease";
 }
 
-function pp() {
-  const dv = document.querySelector(".pp");
-  dv.style.transition = "opacity .3s ease";
-}
 
 const imgs = document.querySelectorAll('.im');
 const contentImage = document.querySelectorAll('.content-img');
