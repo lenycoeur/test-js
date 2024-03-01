@@ -1,0 +1,162 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    top: 0  ;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration:  none;
+    color: rgb(232, 91, 91);
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+header img{
+    max-width: 100px;
+}
+
+.container {
+    position: relative;
+    padding: 100px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content-img,
+.content-text {
+    display: none;
+}
+
+.content .descript {
+    position: relative;
+    max-width: 400px;
+    height: 0px;
+}
+
+.content .descript p {
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+    color: white;
+    transition:    .3s ease;
+}
+
+.content .descript a {
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+
+
+.descript img {
+    position: absolute;
+    width: 400px;
+    top: -350px;
+    height: auto;
+
+}
+
+ .descript .fa-solid {
+    display: inline-block;
+    color: white;
+    background: coral;
+    border-radius: 50%;
+    padding: 15px;
+ }
+
+ .descript .btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 1em;
+    color: black;
+    cursor: pointer;
+    border: 0;
+ }
+
+ .descript .btn:hover {
+    background: rgba(202, 201, 201, 0.726);
+    transition:  background 0.2s ease-in-out;
+    
+ }
+
+ .img-model{
+    width: 500px;
+    display: flex;
+    padding-right: 50px;
+ }
+
+
+ .img-model img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+ }
+
+ .mangaFo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 200px;    
+ }
+
+ .img-manga {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    list-style: none;
+ }
+
+ .img-manga img {
+   width: 100px;
+ }
+
+ .img-manga li {
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+ }
+
+ .img-manga li:hover {
+    transform:  translateY(-10px);
+ }
+
+ 
