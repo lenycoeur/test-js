@@ -13,7 +13,7 @@ header {
     padding: 5px 100px;
     justify-content: space-between;
     align-items: center;
-
+    background: rgba(0, 0, 0, 0.433);
 }
 
 header ul{
@@ -29,19 +29,20 @@ header ul li a {
     text-decoration:  none;
     color: white;
     margin-left: 1rem;
-    font-size: 1.5em;
+    font-size: 1.2em;
     cursor: pointer;
 }
 
 ul li :hover {
     color: rgba(255, 0, 0, 0.775);
-    transition: color 0.5s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 
 
 
 header img{
-    max-width: 100px;
+    max-width: 90px;
+    height: 90px;
 }
 
 .container {
